@@ -3,6 +3,14 @@
     margin: 0 auto; /* Centralizando o conteúdo*/
 }
 
+.menu-de-escolhas {
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+/* Cabeçalho */
+
 .menu {
     width: 100%;
     background: #ffffff;
@@ -13,6 +21,7 @@
 .menu-flex {
   display: flex;
   align-items: center;
+  height: 45px;
 }
 
 .menu-column {
@@ -20,6 +29,10 @@
   align-items: center;
   width: 50%;
   justify-content: flex-start;
+}
+
+.logo {
+  font-size: 20px;
 }
 
 .menu-column.menu-second-column {
@@ -36,15 +49,74 @@
 .menu-nav ul li a {
   text-decoration: none;
   color: #585e65;
+  font-size: 13px;
 }
 
 .menu-link-button {
   text-decoration: none;
-  height: 48px;
+  height: 30px;
   background-color: #4c6ef5;
   color: #fff;
-  padding: 0 32px;
+  padding: 0 24px;
   display: flex;
   align-items: center;
   border-radius: 4px;
+  font-size: 15px;
+  margin-bottom: 10px;
 }
+
+/* Cards */
+
+.posts {
+ 
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.boxUl {
+  padding: 0 0 10px 0;
+  padding: 0;
+}
+.boxLi {
+  width: 280px;
+  height: 380px;
+  border: 2px solid rgb(250, 239, 239);
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.posts .boxUl .boxLi img {
+  border: 2px solid rgb(250, 245, 245);
+  border-radius: 5px;  
+}
+
+.posts .boxUl .boxLi h2 {
+  width: 262px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.posts .boxUl .boxLi span {
+  width: 262px;
+  font-size: 14px;
+
+  text-align: justify;  
+  font-weight: 900;
+}
+
+.posts .boxUl .boxLi button {
+  margin: 20px 0;
+  width: 250px;
+  padding: 10px 0;
+  color: white;
+  background-color: rgb(45, 81, 238);
+  border: 2px solid rgb(45, 81, 238);
+  border-radius: 5px;
+}
+
+
